@@ -8,7 +8,7 @@
       bulkDelete: "Bulk Delete",
       close: "Close",
       title: "ChatGPT Bulk Chat Deleter",
-      google: "Google",
+      google: "App website",
       filterPlaceholder: "Filter by title…",
       selectAll: "Select all",
       unselectAll: "Unselect all",
@@ -29,7 +29,7 @@
       bulkDelete: "Hromadné mazání",
       close: "Zavřít",
       title: "Hromadné mazání chatů ChatGPT",
-      google: "Google",
+      google: "App website",
       filterPlaceholder: "Filtrovat podle názvu…",
       selectAll: "Vybrat vše",
       unselectAll: "Zrušit výběr",
@@ -50,7 +50,7 @@
       bulkDelete: "Borrado masivo",
       close: "Cerrar",
       title: "Borrado masivo de chats de ChatGPT",
-      google: "Google",
+      google: "App website",
       filterPlaceholder: "Filtrar por título…",
       selectAll: "Seleccionar todo",
       unselectAll: "Deseleccionar todo",
@@ -491,7 +491,7 @@
     const actions = document.createElement("div");
     actions.className = "actions";
     const googleLink = document.createElement("a");
-    googleLink.href = "https://www.google.com/";
+    googleLink.href = "https://namesarelimited.github.io/chatgptbulkdeleter/";
     googleLink.target = "_blank";
     googleLink.rel = "noopener noreferrer";
     googleLink.className = "linkbtn";
