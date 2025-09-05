@@ -6,7 +6,7 @@
   const MESSAGES = {
     en: {
       bulkDelete: "Bulk Delete",
-      close: "Close",
+      close: "❌ Close",
       title: "ChatGPT Bulk Chat Deleter",
       google: "App website",
       filterPlaceholder: "Filter by title…",
@@ -27,7 +27,7 @@
     },
     cs: {
       bulkDelete: "Hromadné mazání",
-      close: "Zavřít",
+      close: "❌ Zavřít",
       title: "Hromadné mazání chatů ChatGPT",
       google: "App website",
       filterPlaceholder: "Filtrovat podle názvu…",
@@ -48,7 +48,7 @@
     },
     es: {
       bulkDelete: "Borrado masivo",
-      close: "Cerrar",
+      close: "❌ Cerrar",
       title: "Borrado masivo de chats de ChatGPT",
       google: "App website",
       filterPlaceholder: "Filtrar por título…",
