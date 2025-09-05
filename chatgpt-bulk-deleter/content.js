@@ -6,7 +6,7 @@
   const MESSAGES = {
     en: {
       bulkDelete: "Bulk Delete",
-      close: "❌ Close",
+      close: "Close",
       title: "ChatGPT Bulk Chat Deleter",
       google: "App website",
       filterPlaceholder: "Filter by title…",
@@ -27,7 +27,7 @@
     },
     cs: {
       bulkDelete: "Hromadné mazání",
-      close: "❌ Zavřít",
+      close: "Zavřít",
       title: "Hromadné mazání chatů ChatGPT",
       google: "App website",
       filterPlaceholder: "Filtrovat podle názvu…",
@@ -48,7 +48,7 @@
     },
     es: {
       bulkDelete: "Borrado masivo",
-      close: "❌ Cerrar",
+      close: "Cerrar",
       title: "Borrado masivo de chats de ChatGPT",
       google: "App website",
       filterPlaceholder: "Filtrar por título…",
@@ -404,7 +404,7 @@
     launcherBtn.style.color = "var(--cgpt-text)";
     launcherBtn.style.border = "1px solid var(--cgpt-border)";
     launcherBtn.innerHTML = `<span class="icon">✖</span><span class="txt">${t("close")}</span>`;
-    launcherBtn.innerHTML = `<span class="txt">${t("close")}</span>`;
+    launcherBtn.innerHTML = `<span class="txt">❌ ${t("close")}</span>`;
     launcherBtn.setAttribute("aria-label", "Close ChatGPT Bulk Deleter");
 
     shadowHost = document.createElement("div");
@@ -416,7 +416,7 @@
     document.documentElement.appendChild(shadowHost);
     const sh = shadowHost.attachShadow({ mode: "open" });
     // Ensure clean label without broken icon glyphs
-    try { launcherBtn.innerHTML = `<span class="txt">${t("close")}</span>`; } catch(_) {}
+    try { launcherBtn.innerHTML = `<span class="txt">❌ ${t("close")}</span>`; } catch(_) {}
     try { document.addEventListener("keydown", onKeyDown, true); } catch(_) {}
 
     const style = document.createElement("style");
