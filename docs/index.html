@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Extension Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Your Extension Name</h1>
+    <p class="tagline">A short, catchy description of what your extension does.</p>
+    <a class="button" href="https://chrome.google.com/webstore/detail/YOUR-EXTENSION-ID" target="_blank">
+      Install from Chrome Web Store
+    </a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>✔️ Feature one in simple words</li>
+        <li>✔️ Feature two in simple words</li>
+        <li>✔️ Feature three in simple words</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Screenshots</h2>
+      <div class="gallery">
+        <img src="screenshot1.png" alt="Screenshot 1">
+        <img src="screenshot2.png" alt="Screenshot 2">
+        <img src="screenshot3.png" alt="Screenshot 3">
+      </div>
+    </section>
+
+    <section>
+      <h2>Open Source</h2>
+      <p>
+        This extension is fully open source on 
+        <a href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank">GitHub</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script>
+    // Auto-update footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
